@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24087ef7-582e-4723-8af3-820f58137d96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/javarush/domain/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/javarush/domain/Rental.java" afterDir="false" />
+    <list default="true" id="24087ef7-582e-4723-8af3-820f58137d96" name="Changes" comment="Finished adding entity classes. Added hibernate properties, sessionFactory configuration.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/javarush/dao/ActorDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/javarush/dao/AdressDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/javarush/dao/GenericDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/javarush/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/javarush/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/javarush/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/javarush/domain/Customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +96,14 @@
       <updated>1670398528299</updated>
       <workItem from="1670398531482" duration="8401000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished adding entity classes. Added hibernate properties, sessionFactory configuration.">
+      <created>1670496407689</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670496407689</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,5 +119,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished adding entity classes. Added hibernate properties, sessionFactory configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished adding entity classes. Added hibernate properties, sessionFactory configuration." />
   </component>
 </project>
