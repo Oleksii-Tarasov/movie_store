@@ -8,7 +8,7 @@ import java.util.List;
 
 public abstract class GenericDAO<T> {
     private final Class<T> clazz;
-    private final SessionFactory sessionFactory;
+    private SessionFactory sessionFactory;
 
     public GenericDAO(final Class<T> clazzToSet, SessionFactory sessionFactory) {
         this.clazz = clazzToSet;
